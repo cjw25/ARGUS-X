@@ -28,7 +28,7 @@ export function createStudentView() {
         typeof item === 'string' && item.trim() ? item.trim() : '확인 불가';
 
       const translated = (names, status) =>
-        Object.hasOwn(names, status) ? names[status] : '확인 불가';
+        Object.hasOwn(names, status) ? `${names[status]} (${status})` : '확인 불가';
 
       const line = (parent, text) => {
         const p = document.createElement('p');
