@@ -635,6 +635,7 @@ export function createStudentView() {
         WB_CLCO_LIMIT_REACHED: 'AI 이용 한도에 도달했습니다. 담당자에게 확인하세요.',
         WB_CLCO_SESSION_CLOSED: 'AI 이용 시간이 아닙니다. 이용 가능 시간을 확인하세요.',
         WB_CLCO_RATE_LIMITED: '요청이 제한됐습니다. 잠시 후 직접 재점검하세요.',
+        WB_CLCO_NETWORK_ERROR: 'AI 서버와 통신하지 못했습니다. 잠시 후 직접 다시 점검하세요.',
         WB_CLCO_TIMEOUT: 'AI 응답 시간이 초과됐습니다. 직접 재점검하세요.',
         REQUEST_TIMEOUT: '요청 처리 시간이 초과됐습니다. 직접 재점검하세요.',
         ENGINE_TIMEOUT: '서버 확인 시간이 초과됐습니다. 직접 재점검하세요.',
